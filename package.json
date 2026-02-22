@@ -1,0 +1,20 @@
+{
+  "name": "claude-labs",
+  "version": "1.0.0",
+  "description": "Learning sandbox for the Claude API",
+  "private": true,
+  "scripts": {
+    "lab": "ts-node"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@types/zxcvbn": "^4.4.5",
+    "dotenv": "^16.0.0",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
